@@ -1,13 +1,13 @@
 <template>
-  <div class="hello">
-    <img alt="Vue logo" src="../assets/logo.png">
-    贵州华亿河山科技有限公司
+  <div class="header">
+    <img class="logo" alt="Vue logo" src="../assets/logo.png">
+    <div>贵州华亿河山科技有限公司</div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Header',
   props: {
     // msg: String
   }
@@ -29,5 +29,14 @@ li {
 }
 a {
   color: #42b983;
+}
+.logo{
+  width: 50px;
+  float: left;
+}
+.header{
+  line-height: 50px;
+  overflow: hidden;
+  margin: 10px;
 }
 </style>

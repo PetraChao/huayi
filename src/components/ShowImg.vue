@@ -1,33 +1,41 @@
 <template>
-  <div class="hello">
-    <img alt="Vue logo" src="../assets/logo.png">
-    贵州华亿河山科技有限公司
+  <div class="page-swipe">
+    <mt-swipe :auto="4000">
+      <mt-swipe-item><img src="http://gzhuayihs.com/advance/pics/20190718/1563440423.jpg"></mt-swipe-item>
+      <mt-swipe-item><img src="http://gzhuayihs.com/advance/pics/20190718/1563440432.jpg"></mt-swipe-item>
+      <mt-swipe-item><img src="http://gzhuayihs.com/advance/pics/20190718/1563441135.jpg"></mt-swipe-item>
+    </mt-swipe>
   </div>
 </template>
 
 <script>
+import { Swipe, SwipeItem } from "mint-ui";
+import Vue from "vue";
+
+Vue.component(Swipe.name, Swipe);
+Vue.component(SwipeItem.name, SwipeItem);
 export default {
-  name: 'HelloWorld',
+  name: "ShoWImg",
   props: {
     // msg: String
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+.page-swipe {
+  height: 300px;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+
+.page-swipe .mint-swipe-item {
+  line-height: 300px;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+.page-swipe .mint-swipe-item img{
+  width: 100%;
+  height: 300px;
 }
-a {
-  color: #42b983;
+.mint-swipe {
+  height: 100%;
 }
 </style>
