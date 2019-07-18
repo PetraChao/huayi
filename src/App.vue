@@ -2,17 +2,20 @@
   <div id="app">
     <Header msg="Welcome to Your Vue.js App"/>
     <ShowImg />
+    <Introductor/>
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue';
 import ShowImg from './components/ShowImg.vue';
+import Introductor from './components/Introductor.vue';
 export default {
   name: 'app',
   components: {
     Header,
     ShowImg,
+    Introductor,
   }
 }
 </script>
