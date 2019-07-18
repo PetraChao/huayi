@@ -11,9 +11,11 @@
     </mt-navbar>
     <mt-tab-container v-model="active">
       <mt-tab-container-item id="tab-container1">
-        1、满足不同消费者的需求
-        2、终端体验感十足
-        3、产品稳定，不跳码
+        <ul>
+          <li>1、满足不同消费者的需求</li>
+          <li>2、终端体验感十足</li>
+          <li>3、产品稳定，不跳码</li>
+        </ul>
       </mt-tab-container-item>
       <mt-tab-container-item id="tab-container2">
         1、顶级政策共享，总部直签
@@ -51,4 +53,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+li{
+  list-style-type:none;
+}
 </style>
