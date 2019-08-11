@@ -25,15 +25,15 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .page-swipe {
-  height: 300px;
+  height: 360px;
 }
 
 .page-swipe .mint-swipe-item {
-  line-height: 300px;
+  line-height: 3600px;
 }
 .page-swipe .mint-swipe-item img{
   width: 100%;
-  height: 300px;
+  height: 360px;
 }
 .mint-swipe {
   height: 100%;

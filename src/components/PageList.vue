@@ -2,13 +2,13 @@
   <div>
     <swiper :options="swiperOption" ref="mySwiper">
         <!-- slides -->
-        <swiper-slide>I'm Slide 1</swiper-slide>
-        <swiper-slide>I'm Slide 2</swiper-slide>
-        <swiper-slide>I'm Slide 3</swiper-slide>
-        <swiper-slide>I'm Slide 4</swiper-slide>
+        <swiper-slide><Page1/></swiper-slide>
+        <swiper-slide><Page2/></swiper-slide>
+        <swiper-slide><Page3/></swiper-slide>
+        <!-- <swiper-slide>I'm Slide 4</swiper-slide>
         <swiper-slide>I'm Slide 5</swiper-slide>
         <swiper-slide>I'm Slide 6</swiper-slide>
-        <swiper-slide>I'm Slide 7</swiper-slide>
+        <swiper-slide>I'm Slide 7</swiper-slide> -->
         <!-- Optional controls -->
         <!-- <div class="swiper-pagination"  slot="pagination"></div> -->
       
@@ -23,6 +23,9 @@
 </template>
 <script>
 import Vue from "vue";
+import Page1 from "../pages/Page1";
+import Page2 from "../pages/Page2";
+import Page3 from "../pages/Page3";
 import VueAwesomeSwiper,{ swiper, swiperSlide } from 'vue-awesome-swiper' 
 import 'swiper/dist/css/swiper.css'
 Vue.use(VueAwesomeSwiper)
@@ -43,6 +46,9 @@ export default {
 name: 'PageList',
   components: {
       swiper,  
+      Page1,
+      Page2,
+      Page3,
       swiperSlide  
   },  
   data() {

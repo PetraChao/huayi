@@ -1,23 +1,24 @@
 <template>
   <div class="company-introdution">
     <mt-navbar v-model="active">
-      <mt-tab-item id="tab-container1">产品优势</mt-tab-item>
-      <mt-tab-item id="tab-container2">政策支持</mt-tab-item>
+      <mt-tab-item id="tab-container1">合作方式</mt-tab-item>
+      <mt-tab-item id="tab-container2">合作流程</mt-tab-item>
     </mt-navbar>
     <mt-tab-container v-model="active">
       <mt-tab-container-item id="tab-container1">
         <ul>
-          <li>1、满足不同消费者的需求</li>
-          <li>2、终端体验感十足</li>
-          <li>3、产品稳定，不跳码</li>
+          <li>1、分公司</li>
+          <li>2、华亿旗下各品牌代理商</li>
+          <li>3、个性定制服务</li>
         </ul>
       </mt-tab-container-item>
       <mt-tab-container-item id="tab-container2">
         <ul>
-          <li>1、顶级政策共享，总部直签</li>
-          <li>2、不压货</li>
-          <li>3、全天24小时即时服务</li>
-          <li>4、提供产品知识培训，后台系统管理培训等</li>
+          <li>咨询</li>
+          <li>意向确定</li>
+          <li>签约</li>
+          <li>打款</li>
+          <li>运作</li>
         </ul>
       </mt-tab-container-item>
     </mt-tab-container>
