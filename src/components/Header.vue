@@ -3,7 +3,7 @@
     <img class="logo" alt="Vue logo" src="../assets/logo.png" />
     <h1>贵州华亿河山科技有限公司</h1>
     <img class="music" alt="music" src="../assets/music.png" />
-    <audio id="music-audio" preload="metadata" loop="loop" src="../assets/bg.mp3">
+    <audio id="music-audio" preload="metadata" loop="loop" src="../assets/bg.mp3" autoplay>
       <code>audio</code>
     </audio>
   </div>
@@ -54,12 +54,13 @@ a {
   margin: 10px;
 }
 .music {
-  width: 30px;
-  height: 30px;
+  width: 22px;
+  height: 22px;
   -webkit-animation: rotate2d 1.2s linear infinite;
   animation: rotate2d 1.2s linear infinite;
-  top: 28px;
-  left: 1px;
+  position: relative;
+  top: 32px;
+  left: 2px;
 }
 @-webkit-keyframes rotate2d {
   from {
