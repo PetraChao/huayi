@@ -9,9 +9,9 @@
 
 <script>
 import PageList from './components/PageList.vue';
-import Header from './components/Header.vue';
-import ShowImg from './components/ShowImg.vue';
-import Introductor from './components/Introductor.vue';
+// import Header from './components/Header.vue';
+// import ShowImg from './components/ShowImg.vue';
+// import Introductor from './components/Introductor.vue';
 export default {
   name: 'app',
   components: {

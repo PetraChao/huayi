@@ -1,9 +1,9 @@
 <template>
   <div class="page-swipe">
     <mt-swipe :auto="4000">
-      <mt-swipe-item><img src="http://gzhuayihs.com/advance/pics/20190718/1563440423.jpg"></mt-swipe-item>
-      <mt-swipe-item><img src="http://gzhuayihs.com/advance/pics/20190718/1563440432.jpg"></mt-swipe-item>
-      <mt-swipe-item><img src="http://gzhuayihs.com/advance/pics/20190718/1563441135.jpg"></mt-swipe-item>
+      <mt-swipe-item><img src="../assets/swiper1.jpg"></mt-swipe-item>
+      <mt-swipe-item><img src="../assets/swiper2.jpg"></mt-swipe-item>
+      <mt-swipe-item><img src="../assets/swiper3.jpg"></mt-swipe-item>
     </mt-swipe>
   </div>
 </template>
@@ -29,7 +29,7 @@ export default {
 }
 
 .page-swipe .mint-swipe-item {
-  line-height: 3600px;
+  line-height: 360px;
 }
 .page-swipe .mint-swipe-item img{
   width: 100%;
