@@ -25,5 +25,9 @@ npm run test
 npm run lint
 ```
 
+### publish your static resource
+```
+now
+```
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

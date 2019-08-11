@@ -71,12 +71,12 @@ export default {
     };
   },
   methods: {
-    selectTab: tabId => {
-      console.log(tabId);
-    }
+    // selectTab: tabId => {
+    //   console.log(tabId);
+    // }
   }
 };
-</script>
+</script>    
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
