@@ -3,7 +3,7 @@
     <img class="logo" alt="Vue logo" src="../assets/logo.png" />
     <h1>贵州华亿河山科技有限公司</h1>
     <img class="music" alt="music" src="../assets/music.png" />
-    <audio id="music-audio" preload="metadata" loop="loop" src="../assets/bg.mp3" autoplay>
+    <audio id="music-audio" preload="metadata" loop="loop" src="../assets/bg.mp3">
       <code>audio</code>
     </audio>
   </div>
