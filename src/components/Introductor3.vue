@@ -14,11 +14,11 @@
       </mt-tab-container-item>
       <mt-tab-container-item id="tab-container2">
         <ul>
-          <li>咨询</li>
-          <li>意向确定</li>
-          <li>签约</li>
-          <li>打款</li>
-          <li>运作</li>
+          <li>1、咨询</li>
+          <li>2、意向确定</li>
+          <li>3、签约</li>
+          <li>4、打款</li>
+          <li>5、运作</li>
         </ul>
       </mt-tab-container-item>
     </mt-tab-container>
